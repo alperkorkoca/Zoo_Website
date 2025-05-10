@@ -20,11 +20,11 @@ public class HomeController : Controller
     public ActionResult About(){
         return View();
     }
-
-    public IActionResult Privacy()
-    {
+     public ActionResult Contact(){
         return View();
     }
+
+   
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
