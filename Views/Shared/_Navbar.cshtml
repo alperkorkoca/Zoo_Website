@@ -5,7 +5,7 @@
     >
       <a href="index.html" class="navbar-brand p-0">
         <img class="img-fluid me-3" src="~/img/icon/icon-10.png" alt="Icon" />
-        <h1 class="m-0 text-primary">Zoofari</h1>
+        <h1 class="m-0 text-primary">ZooLand</h1>
       </a>
       <button
         type="button"
@@ -32,14 +32,17 @@
               <a href="animal.html" class="dropdown-item">Our Animals</a>
               <a href="membership.html" class="dropdown-item">Membership</a>
               <a href="visiting.html" class="dropdown-item">Visiting Hours</a>
-              <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+              
             </div>
           </div>
            <a asp-controller="Home" asp-action="Contact" class="nav-item nav-link">Contact</a>
+           <a asp-controller="Account" asp-action="Login" class="nav-item nav-link ">Login</a>
+           
         </div>
-        <a href="" class="btn btn-primary"
-          >Buy Ticket<i class="fa fa-arrow-right ms-3"></i
-        ></a>
+        <a asp-controller="Account" asp-action="Register" class="btn btn-primary">
+           Register <i class="fa fa-arrow-right ms-3"></i>
+       </a>
+
       </div>
     </nav>
     <!-- Navbar End -->
