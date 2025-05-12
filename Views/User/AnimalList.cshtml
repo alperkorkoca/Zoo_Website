@@ -1,0 +1,21 @@
+@model List<zoo_website.Models.Animal>
+
+<h2>Hayvanlar</h2>
+
+<div class="row">
+    @foreach (var animal in Model)
+    {
+        <div class="col-md-4">
+            <div class="card mb-3">
+                <img src="@animal.ImagePath" class="card-img-top" alt="@animal.Name" style="height:200px; object-fit:cover;">
+                <div class="card-body">
+                    
+                    <p><strong>Yaşam Süresi:</strong> @animal.Lifespan</p>
+                    <p><strong>Beslenme:</strong> @animal.Diet</p>
+                    <p><strong>Habitat:</strong> @animal.Habitat</p>
+                    <p>@animal.Description</p>
+                </div>
+            </div>
+        </div>
+    }
+</div>

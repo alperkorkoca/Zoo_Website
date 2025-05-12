@@ -1,0 +1,27 @@
+@model zoo_website.Models.Animal
+
+<h2>Hayvan Ekle</h2>
+
+<form asp-action="AddAnimal" enctype="multipart/form-data" method="post">
+    <label>Ad:</label>
+    <input asp-for="Name" class="form-control" /><br />
+
+  
+
+    <label>Yaşam Süresi:</label>
+    <input asp-for="Lifespan" class="form-control" /><br />
+
+    <label>Beslenme:</label>
+    <input asp-for="Diet" class="form-control" /><br />
+
+    <label>Habitat:</label>
+    <input asp-for="Habitat" class="form-control" /><br />
+
+    <label>Açıklama:</label>
+    <textarea asp-for="Description" class="form-control"></textarea><br />
+
+    <label>Fotoğraf:</label>
+    <input type="file" name="imageFile" class="form-control" /><br />
+
+    <button type="submit" class="btn btn-success">Ekle</button>
+</form>
