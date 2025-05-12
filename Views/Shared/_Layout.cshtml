@@ -28,10 +28,13 @@
     <link href="~/css/bootstrap.min.css" rel="stylesheet" />
     <link href="~/css/style.css" rel="stylesheet" />
 </head>
-<body class="wow">
+<body class="wow @ViewData["BodyClass"]">
     
-
-    @await Html.PartialAsync("_Navbar")
+    @if (ViewData["HideNavbar"] == null)
+    {
+        <partial name="_Navbar" />
+    }
+    
 
 
     <main>
@@ -39,8 +42,12 @@
     </main>
 
   
+    @if (ViewData["HideFooter"] == null)
+    {
+        <partial name="_Footer" />
+    }
 
-    @await Html.PartialAsync("_Footer")
+    
 
 
     <!-- JavaScript Libraries -->

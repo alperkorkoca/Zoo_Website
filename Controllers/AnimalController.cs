@@ -1,12 +1,13 @@
+
 using System.Diagnostics;
 
 using zoo_website.Models;
 
 using Microsoft.AspNetCore.Mvc;
 
-public class AccountController:Controller{
+public class AnimalController:Controller{
 
-    public ActionResult Login(){
+    public ActionResult Index(){
 
         return View();
     }
