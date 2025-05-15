@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "6ItNEJvppleHhpuiKCFc63aP89mjFW8rRgQAsyqvnNM=",
+  "Hash": "uZZijWwA9L21Ww6ovjnbscYFuOIdosY2Pw7zGMTrQps=",
   "Source": "zoo_website",
   "BasePath": "_content/zoo_website",
   "Mode": "Default",
@@ -540,6 +540,90 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\17d587da-3369-4857-a5b0-16d6eef32f0e.jpg",
+      "SourceId": "zoo_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\",
+      "BasePath": "_content/zoo_website",
+      "RelativePath": "images/17d587da-3369-4857-a5b0-16d6eef32f0e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q53gta9lnq",
+      "Integrity": "/ugehIvFkBRyrbj8uosTR83pYjTDhIlXb7HPjLic/84=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\17d587da-3369-4857-a5b0-16d6eef32f0e.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\2cbc5a81-c790-4858-8952-1dd8660dfb8d.jpg",
+      "SourceId": "zoo_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\",
+      "BasePath": "_content/zoo_website",
+      "RelativePath": "images/2cbc5a81-c790-4858-8952-1dd8660dfb8d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ls7g5q2pnc",
+      "Integrity": "i0c28yCGWKu/fC9eJ5wApb79huCPgNxSMq9jRlr7gac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\2cbc5a81-c790-4858-8952-1dd8660dfb8d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\5e8432e6-0613-4c87-9449-2509e18558f6.jpg",
+      "SourceId": "zoo_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\",
+      "BasePath": "_content/zoo_website",
+      "RelativePath": "images/5e8432e6-0613-4c87-9449-2509e18558f6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "d2587veb1l",
+      "Integrity": "W1EYirz8mmXhF3xFaZcUTT/Qh5S8+YQDiYPnXvS7s7c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\5e8432e6-0613-4c87-9449-2509e18558f6.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\c6eb8e1d-0375-4857-b9b0-b71d1cc6fc33.jpg",
+      "SourceId": "zoo_website",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\",
+      "BasePath": "_content/zoo_website",
+      "RelativePath": "images/c6eb8e1d-0375-4857-b9b0-b71d1cc6fc33#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nje5whp7ex",
+      "Integrity": "4yyLTdJspHAcGnGN6qI9zAelD59dCs+w0o9AyQ7APbc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\c6eb8e1d-0375-4857-b9b0-b71d1cc6fc33.jpg"
     },
     {
       "Identity": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\img\\about.jpg",
@@ -4013,6 +4097,334 @@
         {
           "Name": "integrity",
           "Value": "sha256-9RuLSSHr2lnbYv0E7QbR4iVzwjMH+pgIZ0Xm+/k5XZo="
+        }
+      ]
+    },
+    {
+      "Route": "images/17d587da-3369-4857-a5b0-16d6eef32f0e.jpg",
+      "AssetFile": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\17d587da-3369-4857-a5b0-16d6eef32f0e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/ugehIvFkBRyrbj8uosTR83pYjTDhIlXb7HPjLic/84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 07:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/ugehIvFkBRyrbj8uosTR83pYjTDhIlXb7HPjLic/84="
+        }
+      ]
+    },
+    {
+      "Route": "images/17d587da-3369-4857-a5b0-16d6eef32f0e.q53gta9lnq.jpg",
+      "AssetFile": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\17d587da-3369-4857-a5b0-16d6eef32f0e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "40336"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/ugehIvFkBRyrbj8uosTR83pYjTDhIlXb7HPjLic/84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 07:38:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q53gta9lnq"
+        },
+        {
+          "Name": "label",
+          "Value": "images/17d587da-3369-4857-a5b0-16d6eef32f0e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/ugehIvFkBRyrbj8uosTR83pYjTDhIlXb7HPjLic/84="
+        }
+      ]
+    },
+    {
+      "Route": "images/2cbc5a81-c790-4858-8952-1dd8660dfb8d.jpg",
+      "AssetFile": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\2cbc5a81-c790-4858-8952-1dd8660dfb8d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i0c28yCGWKu/fC9eJ5wApb79huCPgNxSMq9jRlr7gac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 07:20:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-i0c28yCGWKu/fC9eJ5wApb79huCPgNxSMq9jRlr7gac="
+        }
+      ]
+    },
+    {
+      "Route": "images/2cbc5a81-c790-4858-8952-1dd8660dfb8d.ls7g5q2pnc.jpg",
+      "AssetFile": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\2cbc5a81-c790-4858-8952-1dd8660dfb8d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "47365"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"i0c28yCGWKu/fC9eJ5wApb79huCPgNxSMq9jRlr7gac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 07:20:19 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ls7g5q2pnc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/2cbc5a81-c790-4858-8952-1dd8660dfb8d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-i0c28yCGWKu/fC9eJ5wApb79huCPgNxSMq9jRlr7gac="
+        }
+      ]
+    },
+    {
+      "Route": "images/5e8432e6-0613-4c87-9449-2509e18558f6.d2587veb1l.jpg",
+      "AssetFile": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\5e8432e6-0613-4c87-9449-2509e18558f6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W1EYirz8mmXhF3xFaZcUTT/Qh5S8+YQDiYPnXvS7s7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 07:24:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d2587veb1l"
+        },
+        {
+          "Name": "label",
+          "Value": "images/5e8432e6-0613-4c87-9449-2509e18558f6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-W1EYirz8mmXhF3xFaZcUTT/Qh5S8+YQDiYPnXvS7s7c="
+        }
+      ]
+    },
+    {
+      "Route": "images/5e8432e6-0613-4c87-9449-2509e18558f6.jpg",
+      "AssetFile": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\5e8432e6-0613-4c87-9449-2509e18558f6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3066"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W1EYirz8mmXhF3xFaZcUTT/Qh5S8+YQDiYPnXvS7s7c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 07:24:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W1EYirz8mmXhF3xFaZcUTT/Qh5S8+YQDiYPnXvS7s7c="
+        }
+      ]
+    },
+    {
+      "Route": "images/c6eb8e1d-0375-4857-b9b0-b71d1cc6fc33.jpg",
+      "AssetFile": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\c6eb8e1d-0375-4857-b9b0-b71d1cc6fc33.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4yyLTdJspHAcGnGN6qI9zAelD59dCs+w0o9AyQ7APbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 07:46:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4yyLTdJspHAcGnGN6qI9zAelD59dCs+w0o9AyQ7APbc="
+        }
+      ]
+    },
+    {
+      "Route": "images/c6eb8e1d-0375-4857-b9b0-b71d1cc6fc33.nje5whp7ex.jpg",
+      "AssetFile": "C:\\Users\\alper\\OneDrive\\Masaüstü\\Zoo_Website\\wwwroot\\images\\c6eb8e1d-0375-4857-b9b0-b71d1cc6fc33.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4yyLTdJspHAcGnGN6qI9zAelD59dCs+w0o9AyQ7APbc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 15 May 2025 07:46:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nje5whp7ex"
+        },
+        {
+          "Name": "label",
+          "Value": "images/c6eb8e1d-0375-4857-b9b0-b71d1cc6fc33.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4yyLTdJspHAcGnGN6qI9zAelD59dCs+w0o9AyQ7APbc="
         }
       ]
     },

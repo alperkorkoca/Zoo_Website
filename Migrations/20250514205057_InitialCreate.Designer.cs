@@ -10,8 +10,8 @@ using zoo_website.Models;
 namespace zoo_website.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250512204756_AddAnimalTable")]
-    partial class AddAnimalTable
+    [Migration("20250514205057_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

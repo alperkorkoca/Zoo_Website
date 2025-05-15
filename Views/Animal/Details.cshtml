@@ -1,0 +1,16 @@
+@model zoo_website.Models.Animal
+
+<div class="container my-5">
+    <div class="card shadow-lg">
+        <img src="@Model.ImagePath" class="card-img-top" alt="@Model.Name" style="height: 400px; object-fit: cover;">
+        <div class="card-body">
+            <h2 class="card-title">@Model.Name</h2>
+            <p class="card-text"><strong>Lifespan:</strong> @Model.Lifespan</p>
+            <p class="card-text"><strong>Diet:</strong> @Model.Diet</p>
+            <p class="card-text"><strong>Habitat:</strong> @Model.Habitat</p>
+            <p class="card-text">@Model.Description</p>
+
+            <a asp-action="Index" class="btn btn-outline-secondary mt-3">Back to List</a>
+        </div>
+    </div>
+</div>

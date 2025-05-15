@@ -1,5 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
 using zoo_website.Models;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+using System.Threading.Tasks;
+using System;
 
 public class AdminController : Controller
 {
@@ -23,7 +27,14 @@ public class AdminController : Controller
     {
         if (imageFile != null && imageFile.Length > 0)
         {
+            // 1. wwwroot/images klasörü oluşturulmamışsa oluştur
             var uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "images");
+            if (!Directory.Exists(uploadsFolder))
+            {
+                Directory.CreateDirectory(uploadsFolder);
+            }
+
+            // 2. Dosya adını benzersiz yap ve kaydet
             var fileName = Guid.NewGuid().ToString() + Path.GetExtension(imageFile.FileName);
             var filePath = Path.Combine(uploadsFolder, fileName);
 
@@ -32,12 +43,13 @@ public class AdminController : Controller
                 await imageFile.CopyToAsync(stream);
             }
 
+            // 3. Veritabanı için resmin yolunu ayarla (tarayıcı tarafından erişilebilir yol)
             animal.ImagePath = "/images/" + fileName;
         }
 
         _context.Animals.Add(animal);
         await _context.SaveChangesAsync();
 
-        return RedirectToAction("AnimalList", "User");
+        return RedirectToAction("Index", "Animal");
     }
 }

@@ -1,27 +1,52 @@
 @model zoo_website.Models.Animal
 
-<h2>Hayvan Ekle</h2>
+<div class="container my-5 d-flex justify-content-center">
+    <div class="p-4 rounded border shadow-sm" style="max-width: 600px; background-color: #fff;">
+        <h2 class="mb-4 text-center">Yeni Hayvan Ekle</h2>
 
-<form asp-action="AddAnimal" enctype="multipart/form-data" method="post">
-    <label>Ad:</label>
-    <input asp-for="Name" class="form-control" /><br />
+        <form asp-action="AddAnimal" enctype="multipart/form-data" method="post" novalidate>
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label fw-semibold">Ad</label>
+                <input asp-for="Name" class="form-control form-control-lg" placeholder="Hayvanın adını giriniz" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
 
-  
+            <div class="mb-3">
+                <label asp-for="Lifespan" class="form-label fw-semibold">Yaşam Süresi</label>
+                <input asp-for="Lifespan" class="form-control form-control-lg" placeholder="Örn: 10 yıl" />
+                <span asp-validation-for="Lifespan" class="text-danger"></span>
+            </div>
 
-    <label>Yaşam Süresi:</label>
-    <input asp-for="Lifespan" class="form-control" /><br />
+            <div class="mb-3">
+                <label asp-for="Diet" class="form-label fw-semibold">Beslenme</label>
+                <input asp-for="Diet" class="form-control form-control-lg" placeholder="Örn: Etçil" />
+                <span asp-validation-for="Diet" class="text-danger"></span>
+            </div>
 
-    <label>Beslenme:</label>
-    <input asp-for="Diet" class="form-control" /><br />
+            <div class="mb-3">
+                <label asp-for="Habitat" class="form-label fw-semibold">Habitat</label>
+                <input asp-for="Habitat" class="form-control form-control-lg" placeholder="Örn: Orman" />
+                <span asp-validation-for="Habitat" class="text-danger"></span>
+            </div>
 
-    <label>Habitat:</label>
-    <input asp-for="Habitat" class="form-control" /><br />
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label fw-semibold">Açıklama</label>
+                <textarea asp-for="Description" rows="4" class="form-control form-control-lg" placeholder="Hayvan hakkında detaylı bilgi giriniz"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
 
-    <label>Açıklama:</label>
-    <textarea asp-for="Description" class="form-control"></textarea><br />
+            <div class="mb-4">
+                <label for="imageFile" class="form-label fw-semibold">Fotoğraf Yükle</label>
+                <input type="file" name="imageFile" id="imageFile" class="form-control form-control-lg" accept="image/*" />
+            </div>
 
-    <label>Fotoğraf:</label>
-    <input type="file" name="imageFile" class="form-control" /><br />
+            <button type="submit" class="btn btn-success btn-lg w-100 shadow-sm">Hayvanı Ekle</button>
+        </form>
+    </div>
+</div>
 
-    <button type="submit" class="btn btn-success">Ekle</button>
-</form>
+@section Scripts {
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.12/dist/jquery.validate.unobtrusive.min.js"></script>
+}
